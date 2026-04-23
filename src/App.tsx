@@ -118,7 +118,7 @@ export default function App() {
       {/* HEADER HERO                               */}
       {/* ========================================= */}
       <header className="content-stretch flex flex-col gap-[120px] md:gap-[240px] items-center md:items-start max-w-[1600px] md:max-w-[1500px] overflow-clip pt-[120px] md:pt-0 px-[16px] md:px-0 relative shrink-0 w-full">
-        <h1 className="block font-bold leading-[0.9] relative shrink-0 text-[160px] text-black text-center tracking-[-6.8px] w-full">
+        <h1 className="block font-bold leading-[0.9] relative shrink-0 text-[52px] md:text-[160px] text-black text-center tracking-[-2px] md:tracking-[-6.8px] w-full">
           Conectamos donde otros no llegan
         </h1>
         
@@ -160,7 +160,7 @@ export default function App() {
               <h2 className="block font-roboto leading-[1.4] relative shrink-0 text-[#203e99] text-[12px] tracking-[-0.12px] w-full md:w-[575px]">
                 Beneficios
               </h2>
-              <p className="leading-[0.9] min-w-full relative shrink-0 text-[#252d44] text-[60px] tracking-[-1.8px] w-[min-content]">
+              <p className="leading-[0.9] min-w-full relative shrink-0 text-[#252d44] text-[32px] md:text-[60px] tracking-[-1px] md:tracking-[-1.8px] w-[min-content]">
                 Tenemos la solución para tu empresa.
               </p>
               <p className="leading-[1.4] min-w-full relative shrink-0 text-[#6f6f6f] text-[15px] tracking-[-0.075px] w-[min-content]">
@@ -245,7 +245,7 @@ export default function App() {
         {/* ========================================= */}
         <section id="equipos" className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-col gap-[20px] md:gap-[80px] items-start max-w-[1600px] md:max-w-[1500px] overflow-x-auto overflow-y-clip pb-[100px] md:pb-[120px] pt-[80px] px-[16px] md:px-0 relative shrink-0 w-full">
           <div className="content-stretch flex flex-col md:flex-row gap-[40px] md:gap-0 items-center md:items-start justify-center md:justify-between relative shrink-0 w-full">
-            <p className="font-normal leading-[0.9] relative shrink-0 text-[#252d44] text-[60px] text-center tracking-[-1.8px] w-full md:w-auto md:whitespace-nowrap">
+            <p className="font-normal leading-[0.9] relative shrink-0 text-[#252d44] text-[32px] md:text-[60px] text-center tracking-[-1px] md:tracking-[-1.8px] w-full md:w-auto md:whitespace-nowrap">
               Nuestros Equipos
             </p>
             <a className="bg-[#b5c8ff] content-stretch cursor-pointer flex flex-col items-center justify-center px-[22px] py-[14px] relative rounded-[1000px] shrink-0" href="#contacto">
@@ -256,7 +256,7 @@ export default function App() {
           </div>
 
           <div className="content-stretch flex items-start justify-between relative shrink-0 w-full mt-4 md:mt-0">
-            <p className="font-normal leading-none relative shrink-0 text-[#252d44] text-[40px] text-center tracking-[-1.6px] w-full md:w-auto md:whitespace-nowrap">
+            <p className="font-normal leading-none relative shrink-0 text-[#252d44] text-[22px] md:text-[40px] text-center tracking-[-0.5px] md:tracking-[-1.6px] w-full md:w-auto md:whitespace-nowrap">
               Antenas Starlink
             </p>
           </div>
@@ -267,7 +267,7 @@ export default function App() {
                 <img alt="Starlink Mini" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgStarlinkMiniKit} />
               </div>
               <div className="content-stretch flex flex-col font-normal gap-[20px] items-center leading-none relative shrink-0 text-center w-full">
-                <p className="relative shrink-0 text-[#252d44] text-[40px] tracking-[-1.6px] w-full font-bold">
+                <p className="relative shrink-0 text-[#252d44] text-[26px] md:text-[40px] tracking-[-0.5px] md:tracking-[-1.6px] w-full font-bold">
                   Starlink Mini
                 </p>
                 <p className="relative shrink-0 text-[#6f6f6f] text-[18px] tracking-[-0.54px] w-full leading-[1.4]">
@@ -281,7 +281,7 @@ export default function App() {
                 <img alt="Starlink V4" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img533411} />
               </div>
               <div className="content-stretch flex flex-col font-normal gap-[20px] items-start md:items-center leading-none relative shrink-0 text-center w-full">
-                <p className="relative shrink-0 text-[#252d44] text-[40px] tracking-[-1.6px] w-full font-bold">
+                <p className="relative shrink-0 text-[#252d44] text-[26px] md:text-[40px] tracking-[-0.5px] md:tracking-[-1.6px] w-full font-bold">
                   Starlink V4
                 </p>
                 <p className="relative shrink-0 text-[#6f6f6f] text-[18px] tracking-[-0.54px] w-full leading-[1.4]">
@@ -292,7 +292,7 @@ export default function App() {
           </div>
 
           <div className="content-stretch flex items-start justify-between relative shrink-0 w-full mt-10 md:mt-0">
-            <p className="font-normal leading-none relative shrink-0 text-[#252d44] text-[40px] text-center tracking-[-1.6px] w-full md:w-auto md:whitespace-nowrap">
+            <p className="font-normal leading-none relative shrink-0 text-[#252d44] text-[22px] md:text-[40px] text-center tracking-[-0.5px] md:tracking-[-1.6px] w-full md:w-auto md:whitespace-nowrap">
               Nuestras Plantas EcoFlow
             </p>
           </div>
@@ -309,7 +309,7 @@ export default function App() {
                   <img alt={item.title} className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={item.img} />
                 </div>
                 <div className="content-stretch flex flex-col font-normal gap-[20px] items-center md:items-start leading-none relative shrink-0 text-center w-full">
-                  <p className="relative shrink-0 text-[#252d44] text-[40px] tracking-[-1.6px] w-full font-bold">
+                  <p className="relative shrink-0 text-[#252d44] text-[24px] md:text-[40px] tracking-[-0.5px] md:tracking-[-1.6px] w-full font-bold">
                     {item.title}
                   </p>
                   <p className="relative shrink-0 text-[#6f6f6f] text-[18px] md:text-center tracking-[-0.54px] w-full leading-[1.4]">
@@ -327,7 +327,7 @@ export default function App() {
         <section className="content-stretch flex flex-col md:flex-row md:gap-[20px] items-start max-w-[1600px] md:max-w-[1500px] pb-[80px] md:pb-[120px] px-[32px] md:px-0 relative shrink-0 w-full">
           <div className="border-[#e9e9e9] border-solid border-t content-stretch flex md:flex-[1_0_0] flex-col gap-[40px] items-start md:min-w-px pb-[80px] pt-[60px] relative shrink-0 w-full">
             <div className="content-stretch flex flex-col font-normal gap-[40px] items-start md:pr-[80px] relative shrink-0 w-full">
-              <p className="leading-[0.9] relative shrink-0 text-[#252d44] text-[60px] tracking-[-1.8px] w-full">
+              <p className="leading-[0.9] relative shrink-0 text-[#252d44] text-[32px] md:text-[60px] tracking-[-1px] md:tracking-[-1.8px] w-full">
                 Tu infraestructura bajo control.
               </p>
               <p className="leading-[1.4] relative shrink-0 text-[#6f6f6f] text-[15px] tracking-[-0.075px] w-full">
@@ -382,7 +382,7 @@ export default function App() {
           </div>
 
           <section className="border-[#e9e9e9] border-solid border-t content-stretch flex md:flex-[1_0_0] flex-col font-normal gap-[50px] items-start justify-center pt-[40px] px-[16px] md:pl-[50px] md:pt-0 relative shrink-0 md:self-stretch w-full">
-            <p className="leading-none relative shrink-0 text-[#252d44] text-[40px] tracking-[-1.6px] w-full">
+            <p className="leading-[1.2] relative shrink-0 text-[#252d44] text-[22px] md:text-[40px] tracking-[-0.5px] md:tracking-[-1.6px] w-full">
               “Teníamos años sufriendo con el WiFi en las habitaciones del fondo. Ahora tenemos señal hasta en el jardín. Ha cambiado la experiencia de nuestros clientes.”
             </p>
             <div className="content-stretch flex md:flex-col gap-[8px] items-center md:items-start leading-[1.4] relative shrink-0 w-full whitespace-nowrap">
@@ -401,7 +401,7 @@ export default function App() {
         {/* ========================================= */}
         <section id="how-to" className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-col gap-[80px] h-auto md:h-auto items-start max-w-[1600px] md:max-w-[1500px] overflow-x-auto md:overflow-visible overflow-y-clip pb-[100px] md:pb-[120px] pt-[80px] px-[16px] md:px-0 relative shrink-0 w-full">
           <div className="content-stretch flex flex-col md:flex-row gap-[40px] md:gap-0 md:h-auto h-[135px] items-start md:items-center justify-between relative shrink-0 w-full">
-            <p className="font-normal leading-[0.9] min-w-full md:min-w-0 relative shrink-0 text-[#252d44] text-[60px] text-center md:text-left tracking-[-1.8px] w-[min-content] md:whitespace-nowrap">
+            <p className="font-normal leading-[0.9] min-w-full md:min-w-0 relative shrink-0 text-[#252d44] text-[32px] md:text-[60px] text-center md:text-left tracking-[-1px] md:tracking-[-1.8px] w-[min-content] md:whitespace-nowrap">
               Pasos para el éxito
             </p>
             <a className="bg-[#b5c8ff] content-stretch cursor-pointer flex flex-col items-center justify-center px-[22px] py-[14px] relative rounded-[1000px] shrink-0" href="#contacto">
@@ -417,7 +417,7 @@ export default function App() {
               { num: '03', title: 'Certificación', text: 'Entregamos un mapa de cobertura real garantizada.' }
             ].map((step, i) => (
               <section key={i} className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-[1_0_0] flex-col gap-[60px] items-start min-w-[240px] pb-[20px] pr-[30px] pt-[60px] relative snap-center">
-                <p className="leading-none relative shrink-0 text-[#929292] text-[80px] tracking-[-3.2px] w-full">
+                <p className="leading-none relative shrink-0 text-[#929292] text-[56px] md:text-[80px] tracking-[-2px] md:tracking-[-3.2px] w-full">
                   {step.num}
                 </p>
                 <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full">
@@ -448,7 +448,7 @@ export default function App() {
         {/* CONTACT                                   */}
         {/* ========================================= */}
         <section id="contacto" className="border-[#e9e9e9] border-solid border-t-[0.5px] content-stretch flex flex-col gap-[40px] items-center max-w-[1600px] md:max-w-[1500px] px-[16px] md:px-[300px] py-[120px] relative shrink-0 w-full">
-          <p className="font-normal leading-[0.9] relative shrink-0 text-[#252d44] text-[60px] text-center tracking-[-1.8px] w-full">
+          <p className="font-normal leading-[0.9] relative shrink-0 text-[#252d44] text-[32px] md:text-[60px] text-center tracking-[-1px] md:tracking-[-1.8px] w-full">
             Conecta con nosotros
           </p>
           <p className="font-normal leading-[1.4] relative shrink-0 text-[#6f6f6f] text-[15px] text-center tracking-[-0.075px] w-full">
