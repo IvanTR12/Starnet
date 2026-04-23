@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 // --- Assets ---
-const imgAsset11 = "./assets/logo.png";
+const imgAsset11 = "./assets/logo.svg";
 const imgHeroImage = "./assets/hero-image.jpg";
 const imgStarlinkMiniKit = "./assets/starlink-mini.png";
 const img533411 = "./assets/starlink-v4.png";
@@ -472,14 +472,6 @@ export default function App() {
       {/* ========================================= */}
       <footer className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-col md:flex-row gap-[80px] items-start md:justify-between max-w-[1600px] md:max-w-[1500px] pb-[20px] pt-[40px] px-[16px] md:px-0 relative shrink-0 w-full">
         <div className="content-stretch flex flex-col md:flex-row items-start relative shrink-0 w-full md:w-auto">
-          <div className="content-stretch cursor-pointer flex flex-col md:flex-row font-bold gap-[27px] items-start md:items-center justify-center md:h-[40px] leading-[0] relative shrink-0 text-[#252d44] text-[14px] text-center tracking-[-0.35px] whitespace-nowrap">
-            <button className="block relative shrink-0">
-              <p className="leading-[1.4]">Beneficios</p>
-            </button>
-            <button className="block relative shrink-0">
-              <p className="leading-[1.4]">How-to</p>
-            </button>
-          </div>
         </div>
         <div className="content-stretch flex items-end relative shrink-0 w-full md:w-auto">
           <div aria-label="Company logo" className="content-stretch flex items-end relative shrink-0">
