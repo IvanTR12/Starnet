@@ -2,40 +2,40 @@
 import { useState } from 'react';
 
 // --- Assets ---
-const imgAsset11 = "http://localhost:3845/assets/ca660636b34306a19e01817be04734a7ca44c632.png";
-const imgHeroImage = "http://localhost:3845/assets/27594e92b9b432843319210cddc6514b6ee87450.png";
-const imgStarlinkMiniKit = "http://localhost:3845/assets/7a200568951a0aa720ca6d514d6e801c22f71336.png";
-const img533411 = "http://localhost:3845/assets/f9c8b06203eff3ae65493e8a1b88f0ac0dc1a6f4.png";
-const imgImgS1 = "http://localhost:3845/assets/99d8b1f79a7f77ea8c13331ce5c4ba480c4b8b42.png";
-const imgRiver2Pro = "http://localhost:3845/assets/14e1f62398291c8332d3a37813ef1c3275c8814e.png";
-const imgDelta3Classic = "http://localhost:3845/assets/fe4adfa92478dac6533811f40911c673402bc8eb.png";
-const imgEcoflow360011 = "http://localhost:3845/assets/96b36298a5d1408213b750611520b5477ef6735e.png";
-const imgImage = "http://localhost:3845/assets/8c5a21adadebacbd69375684275fb89819b4d967.png";
-const imgImage1 = "http://localhost:3845/assets/7d21c327f1e7740ce9c46cd595065dccfdcec99a.png";
-const imgImage2 = "http://localhost:3845/assets/de5a74711b655d5394631256a2e65f4f4b7e3f42.png";
+const imgAsset11 = "assets/ca660636b34306a19e01817be04734a7ca44c632.png";
+const imgHeroImage = "assets/27594e92b9b432843319210cddc6514b6ee87450.png";
+const imgStarlinkMiniKit = "assets/7a200568951a0aa720ca6d514d6e801c22f71336.png";
+const img533411 = "assets/f9c8b06203eff3ae65493e8a1b88f0ac0dc1a6f4.png";
+const imgImgS1 = "assets/99d8b1f79a7f77ea8c13331ce5c4ba480c4b8b42.png";
+const imgRiver2Pro = "assets/14e1f62398291c8332d3a37813ef1c3275c8814e.png";
+const imgDelta3Classic = "assets/fe4adfa92478dac6533811f40911c673402bc8eb.png";
+const imgEcoflow360011 = "assets/96b36298a5d1408213b750611520b5477ef6735e.png";
+const imgImage = "assets/8c5a21adadebacbd69375684275fb89819b4d967.png";
+const imgImage1 = "assets/7d21c327f1e7740ce9c46cd595065dccfdcec99a.png";
+const imgImage2 = "assets/de5a74711b655d5394631256a2e65f4f4b7e3f42.png";
 
 // SVGs
-const imgArrow = "http://localhost:3845/assets/2a8a188593ad3b7aff08380878effcdb08687e1f.svg";
-const imgVector = "http://localhost:3845/assets/b39fcaaccfd15c2ff67916211076fb533a938666.svg";
-const imgVector1 = "http://localhost:3845/assets/8654734d7b30e0bd2c2b68b3b55707254f910d2c.svg";
-const imgVector2 = "http://localhost:3845/assets/88bfaee9c241fc6b5ddab8beaee246c5c9326c6d.svg";
-const imgVector3 = "http://localhost:3845/assets/1d758470f0b05af4717726cc898fa220d71aca4f.svg";
-const imgMenuIcon = "http://localhost:3845/assets/a0fcaaf629400b9abe1726e88af00c13241c1d54.svg";
+const imgArrow = "assets/2a8a188593ad3b7aff08380878effcdb08687e1f.svg";
+const imgVector = "assets/b39fcaaccfd15c2ff67916211076fb533a938666.svg";
+const imgVector1 = "assets/8654734d7b30e0bd2c2b68b3b55707254f910d2c.svg";
+const imgVector2 = "assets/88bfaee9c241fc6b5ddab8beaee246c5c9326c6d.svg";
+const imgVector3 = "assets/1d758470f0b05af4717726cc898fa220d71aca4f.svg";
+const imgMenuIcon = "assets/a0fcaaf629400b9abe1726e88af00c13241c1d54.svg";
 
 // Desktop specifics
-const imgInnerScreenDesktop = "http://localhost:3845/assets/2b19803f6c5e3c26b39f607fe129d1919300df81.png";
+const imgInnerScreenDesktop = "assets/2b19803f6c5e3c26b39f607fe129d1919300df81.png";
 
 // Mobile specifics
-const imgUiElementsMobile = "http://localhost:3845/assets/a4a25187397beb8341656e8a6d97266533fa83ad.svg";
-const imgInnerScreenMobile = "http://localhost:3845/assets/59d8f7e934db11a36b1ce1b6acedbc508350e6b5.png";
-const imgInnerScreenMobile1 = "http://localhost:3845/assets/3be40f5cedc436e558720fb4cc391a78df9b6292.png";
+const imgUiElementsMobile = "assets/a4a25187397beb8341656e8a6d97266533fa83ad.svg";
+const imgInnerScreenMobile = "assets/59d8f7e934db11a36b1ce1b6acedbc508350e6b5.png";
+const imgInnerScreenMobile1 = "assets/3be40f5cedc436e558720fb4cc391a78df9b6292.png";
 
 export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div className="bg-white content-stretch flex flex-col items-center pb-[20px] md:px-[40px] relative size-full font-source">
-      
+
       {/* ========================================= */}
       {/* NAVIGATION                                */}
       {/* ========================================= */}
@@ -121,7 +121,7 @@ export default function App() {
         <h1 className="block font-bold leading-[0.9] relative shrink-0 text-[52px] md:text-[160px] text-black text-center tracking-[-2px] md:tracking-[-6.8px] w-full">
           Conectamos donde otros no llegan
         </h1>
-        
+
         {/* MOBILE HERO IMAGE */}
         <div className="md:hidden bg-[#2a3b6f] h-[362px] relative rounded-[30px] shrink-0 w-full">
           <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#252d44] border border-[#929292] border-solid h-[541.824px] left-[calc(50%+0.5px)] overflow-clip rounded-[34.662px] shadow-[0px_-2.342px_11.709px_0px_rgba(0,0,0,0.1)] top-[calc(50%+41px)] w-[270px]">
@@ -167,7 +167,7 @@ export default function App() {
                 Damos cobertura donde nadie ha llegado.
               </p>
             </div>
-            
+
             <div className="content-stretch flex flex-col md:flex-row flex-wrap gap-[20px] items-start pt-[40px] relative shrink-0 w-full">
               <section className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-[265px] pr-[20px] py-[40px] relative shrink-0 w-full md:w-auto">
                 <div className="overflow-clip relative shrink-0 size-[24px]">
@@ -184,7 +184,7 @@ export default function App() {
                   </p>
                 </div>
               </section>
-              
+
               <section className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-[265px] pr-[20px] py-[40px] relative shrink-0 w-full md:w-auto">
                 <div className="overflow-clip relative shrink-0 size-[24px]">
                   <div className="absolute inset-[8.33%]">
@@ -275,7 +275,7 @@ export default function App() {
                 </p>
               </div>
             </section>
-            
+
             <section className="border-[#e9e9e9] border-solid border-t content-stretch flex flex-[1_0_0] flex-col gap-[60px] items-center min-w-[240px] pb-[20px] pt-[60px] px-[30px] relative">
               <div className="aspect-[1200/1200] relative shrink-0 w-full md:w-[500px]">
                 <img alt="Starlink V4" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img533411} />
@@ -334,7 +334,7 @@ export default function App() {
                 Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.
               </p>
             </div>
-            
+
             <div className="content-stretch flex flex-col items-start leading-[1.4] relative shrink-0 text-[15px] tracking-[-0.075px] w-full">
               {[
                 'Auditoría de señal previa.',
@@ -343,7 +343,7 @@ export default function App() {
               ].map((text, i) => (
                 <section key={i} className="border-[#e9e9e9] border-solid border-t content-stretch flex gap-[30px] items-start justify-center md:pr-[80px] py-[20px] relative shrink-0 w-full">
                   <p className="font-bold relative shrink-0 text-[#6f6f6f] whitespace-nowrap">
-                    0{i+1}
+                    0{i + 1}
                   </p>
                   <p className="flex-[1_0_0] font-normal min-w-px relative text-[#252d44]">
                     {text}
@@ -357,7 +357,7 @@ export default function App() {
               </p>
             </a>
           </div>
-          
+
           <div className="content-stretch flex md:flex-[1_0_0] flex-col items-start max-w-[1600px] md:min-w-px relative shrink-0 w-full">
             <div className="h-[385px] md:h-[711px] relative rounded-[30px] shrink-0 w-full">
               <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[30px]">
