@@ -2,33 +2,33 @@
 import { useState } from 'react';
 
 // --- Assets ---
-const imgAsset11 = "./assets/ca660636b34306a19e01817be04734a7ca44c632.png";
-const imgHeroImage = "./assets/27594e92b9b432843319210cddc6514b6ee87450.png";
-const imgStarlinkMiniKit = "./assets/7a200568951a0aa720ca6d514d6e801c22f71336.png";
-const img533411 = "./assets/f9c8b06203eff3ae65493e8a1b88f0ac0dc1a6f4.png";
-const imgImgS1 = "./assets/99d8b1f79a7f77ea8c13331ce5c4ba480c4b8b42.png";
-const imgRiver2Pro = "./assets/14e1f62398291c8332d3a37813ef1c3275c8814e.png";
-const imgDelta3Classic = "./assets/fe4adfa92478dac6533811f40911c673402bc8eb.png";
-const imgEcoflow360011 = "./assets/96b36298a5d1408213b750611520b5477ef6735e.png";
-const imgImage = "./assets/8c5a21adadebacbd69375684275fb89819b4d967.png";
-const imgImage1 = "./assets/7d21c327f1e7740ce9c46cd595065dccfdcec99a.png";
-const imgImage2 = "./assets/de5a74711b655d5394631256a2e65f4f4b7e3f42.png";
+const imgAsset11 = "/assets/logo.png";
+const imgHeroImage = "/assets/hero-image.jpg";
+const imgStarlinkMiniKit = "/assets/starlink-mini.png";
+const img533411 = "/assets/starlink-v4.png";
+const imgImgS1 = "/assets/river2.png";
+const imgRiver2Pro = "/assets/river2pro.png";
+const imgDelta3Classic = "/assets/portable-power-station-ecoflow-delta-3-classic_02 1.png";
+const imgEcoflow360011 = "/assets/ecoflow360011.png";
+const imgImage = "/assets/image.jpg";
+const imgImage1 = "/assets/image1.jpg";
+const imgImage2 = "/assets/image2.jpg";
 
 // SVGs
-const imgArrow = "./assets/2a8a188593ad3b7aff08380878effcdb08687e1f.svg";
-const imgVector = "./assets/b39fcaaccfd15c2ff67916211076fb533a938666.svg";
-const imgVector1 = "./assets/8654734d7b30e0bd2c2b68b3b55707254f910d2c.svg";
-const imgVector2 = "./assets/88bfaee9c241fc6b5ddab8beaee246c5c9326c6d.svg";
-const imgVector3 = "./assets/1d758470f0b05af4717726cc898fa220d71aca4f.svg";
-const imgMenuIcon = "./assets/a0fcaaf629400b9abe1726e88af00c13241c1d54.svg";
+const imgArrow = "/assets/arrow.svg";
+const imgVector = "/assets/vector.svg";
+const imgVector1 = "/assets/vector1.svg";
+const imgVector2 = "/assets/vector2.svg";
+const imgVector3 = "/assets/vector3.svg";
+const imgMenuIcon = "/assets/menu-icon.svg";
 
 // Desktop specifics
-const imgInnerScreenDesktop = "./assets/2b19803f6c5e3c26b39f607fe129d1919300df81.png";
+const imgInnerScreenDesktop = "/assets/inner-screen-desktop.png";
 
 // Mobile specifics
-const imgUiElementsMobile = "./assets/a4a25187397beb8341656e8a6d97266533fa83ad.svg";
-const imgInnerScreenMobile = "./assets/59d8f7e934db11a36b1ce1b6acedbc508350e6b5.png";
-const imgInnerScreenMobile1 = "./assets/3be40f5cedc436e558720fb4cc391a78df9b6292.png";
+const imgUiElementsMobile = "/assets/ui-elements-mobile.svg";
+const imgInnerScreenMobile = "/assets/inner-screen-mobile.jpg";
+const imgInnerScreenMobile1 = "/assets/inner-screen-mobile1.png";
 
 export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
