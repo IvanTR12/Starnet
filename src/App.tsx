@@ -2,33 +2,33 @@
 import { useState } from 'react';
 
 // --- Assets ---
-const imgAsset11 = "/assets/logo.png";
-const imgHeroImage = "/assets/hero-image.jpg";
-const imgStarlinkMiniKit = "/assets/starlink-mini.png";
-const img533411 = "/assets/starlink-v4.png";
-const imgImgS1 = "/assets/river2.png";
-const imgRiver2Pro = "/assets/river2pro.png";
-const imgDelta3Classic = "/assets/portable-power-station-ecoflow-delta-3-classic_02 1.png";
-const imgEcoflow360011 = "/assets/ecoflow360011.png";
-const imgImage = "/assets/image.jpg";
-const imgImage1 = "/assets/image1.jpg";
-const imgImage2 = "/assets/image2.jpg";
+const imgAsset11 = "public/assets/logo.png";
+const imgHeroImage = "public/assets/hero-image.jpg";
+const imgStarlinkMiniKit = "public/assets/starlink-mini.png";
+const img533411 = "public/assets/starlink-v4.png";
+const imgImgS1 = "public/assets/river2.png";
+const imgRiver2Pro = "public/assets/river2pro.png";
+const imgDelta3Classic = "public/assets/portable-power-station-ecoflow-delta-3-classic_02 1.png";
+const imgEcoflow360011 = "public/assets/ecoflow360011.png";
+const imgImage = "public/assets/image.jpg";
+const imgImage1 = "public/assets/image1.jpg";
+const imgImage2 = "public/assets/image2.jpg";
 
 // SVGs
-const imgArrow = "/assets/arrow.svg";
-const imgVector = "/assets/vector.svg";
-const imgVector1 = "/assets/vector1.svg";
-const imgVector2 = "/assets/vector2.svg";
-const imgVector3 = "/assets/vector3.svg";
-const imgMenuIcon = "/assets/menu-icon.svg";
+const imgArrow = "public/assets/arrow.svg";
+const imgVector = "public/assets/vector.svg";
+const imgVector1 = "public/assets/vector1.svg";
+const imgVector2 = "public/assets/vector2.svg";
+const imgVector3 = "public/assets/vector3.svg";
+const imgMenuIcon = "public/assets/menu-icon.svg";
 
 // Desktop specifics
-const imgInnerScreenDesktop = "/assets/inner-screen-desktop.png";
+const imgInnerScreenDesktop = "public/assets/inner-screen-desktop.png";
 
 // Mobile specifics
-const imgUiElementsMobile = "/assets/ui-elements-mobile.svg";
-const imgInnerScreenMobile = "/assets/inner-screen-mobile.jpg";
-const imgInnerScreenMobile1 = "/assets/inner-screen-mobile1.png";
+const imgUiElementsMobile = "public/assets/ui-elements-mobile.svg";
+const imgInnerScreenMobile = "public/assets/inner-screen-mobile.jpg";
+const imgInnerScreenMobile1 = "public/assets/inner-screen-mobile1.png";
 
 export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
